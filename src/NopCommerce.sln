@@ -27,8 +27,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nop.Core.Tests", "Tests\Nop
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nop.Tests", "Tests\Nop.Tests\Nop.Tests.csproj", "{1D9EB579-3630-468A-BE94-49E7DF4F6E1D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nop.Plugin.Tax.FixedRate", "Plugins\Nop.Plugin.Tax.FixedRate\Nop.Plugin.Tax.FixedRate.csproj", "{60E882EA-9ACB-4EFE-82A0-8FB1F5884B04}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nop.Plugin.Shipping.AustraliaPost", "Plugins\Nop.Plugin.Shipping.AustraliaPost\Nop.Plugin.Shipping.AustraliaPost.csproj", "{767CED15-6A9B-433C-9F69-DABA80920C74}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nop.Plugin.Shipping.FixedRateShipping", "Plugins\Nop.Plugin.Shipping.FixedRateShipping\Nop.Plugin.Shipping.FixedRateShipping.csproj", "{2DCB7949-24C2-49C7-872C-C948E43717E7}"
@@ -47,7 +45,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nop.Admin", "Presentation\N
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nop.Plugin.Feed.Froogle", "Plugins\Nop.Plugin.Feed.Froogle\Nop.Plugin.Feed.Froogle.csproj", "{965A02F0-FC84-4AC4-91E4-79EADFC1CA9D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nop.Plugin.Tax.CountryStateZip", "Plugins\Nop.Plugin.Tax.CountryStateZip\Nop.Plugin.Tax.CountryStateZip.csproj", "{493761CB-5190-4283-8C6C-A8CEB5450CAB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nop.Plugin.Tax.FixedOrByCountryStateZip", "Plugins\Nop.Plugin.Tax.FixedOrByCountryStateZip\Nop.Plugin.Tax.FixedOrByCountryStateZip.csproj", "{493761CB-5190-4283-8C6C-A8CEB5450CAB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nop.Plugin.DiscountRules.HasAllProducts", "Plugins\Nop.Plugin.DiscountRules.HasAllProducts\Nop.Plugin.DiscountRules.HasAllProducts.csproj", "{36261AB6-2FD4-4BDA-A941-AF4CC18C21E5}"
 EndProject
@@ -171,16 +169,6 @@ Global
 		{1D9EB579-3630-468A-BE94-49E7DF4F6E1D}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{1D9EB579-3630-468A-BE94-49E7DF4F6E1D}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{1D9EB579-3630-468A-BE94-49E7DF4F6E1D}.Release|x86.ActiveCfg = Release|Any CPU
-		{60E882EA-9ACB-4EFE-82A0-8FB1F5884B04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{60E882EA-9ACB-4EFE-82A0-8FB1F5884B04}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{60E882EA-9ACB-4EFE-82A0-8FB1F5884B04}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{60E882EA-9ACB-4EFE-82A0-8FB1F5884B04}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{60E882EA-9ACB-4EFE-82A0-8FB1F5884B04}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{60E882EA-9ACB-4EFE-82A0-8FB1F5884B04}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{60E882EA-9ACB-4EFE-82A0-8FB1F5884B04}.Release|Any CPU.Build.0 = Release|Any CPU
-		{60E882EA-9ACB-4EFE-82A0-8FB1F5884B04}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{60E882EA-9ACB-4EFE-82A0-8FB1F5884B04}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{60E882EA-9ACB-4EFE-82A0-8FB1F5884B04}.Release|x86.ActiveCfg = Release|Any CPU
 		{767CED15-6A9B-433C-9F69-DABA80920C74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{767CED15-6A9B-433C-9F69-DABA80920C74}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{767CED15-6A9B-433C-9F69-DABA80920C74}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
@@ -458,7 +446,6 @@ Global
 		{5DCBE5B1-1A02-48E7-9853-5FCEF2A36805} = {A340B280-C12B-47E7-90B7-89C650F8AAFC}
 		{7A9BDC6A-F880-43D5-9B2A-59C1674CE449} = {A340B280-C12B-47E7-90B7-89C650F8AAFC}
 		{1D9EB579-3630-468A-BE94-49E7DF4F6E1D} = {A340B280-C12B-47E7-90B7-89C650F8AAFC}
-		{60E882EA-9ACB-4EFE-82A0-8FB1F5884B04} = {7881B112-7843-4542-B1F7-F99553FB9BB7}
 		{767CED15-6A9B-433C-9F69-DABA80920C74} = {7881B112-7843-4542-B1F7-F99553FB9BB7}
 		{2DCB7949-24C2-49C7-872C-C948E43717E7} = {7881B112-7843-4542-B1F7-F99553FB9BB7}
 		{D28CAD64-4C88-48CB-8AA4-10B7D050BE56} = {7881B112-7843-4542-B1F7-F99553FB9BB7}

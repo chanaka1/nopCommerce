@@ -6081,7 +6081,7 @@ namespace Nop.Services.Installation
                         "Payments.CheckMoneyOrder",
                         "Payments.Manual",
                         "Payments.PayInStore",
-                        "Payments.PurchaseOrder",
+                        "Payments.PurchaseOrder"
                     },
                 AllowRePostingPayments = true,
                 BypassPaymentMethodSelectionIfOnlyOne = true,
@@ -6091,7 +6091,7 @@ namespace Nop.Services.Installation
             {
                 TaxBasedOn = TaxBasedOn.BillingAddress,
                 TaxDisplayType = TaxDisplayType.ExcludingTax,
-                ActiveTaxProviderSystemName = "Tax.FixedRate",
+                ActiveTaxProviderSystemName = "Tax.FixedOrByCountryStateZip",
                 DefaultTaxAddressId = 0,
                 DisplayTaxSuffix = false,
                 DisplayTaxRates = false,
