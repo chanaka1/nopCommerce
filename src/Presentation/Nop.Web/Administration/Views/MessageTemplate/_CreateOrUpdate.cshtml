@@ -59,7 +59,7 @@
                             @Html.NopLabelFor(model => model.Locales[item].Body)
                         </div>
                         <div class="col-md-9">
-                            @Html.EditorFor(model => model.Locales[item].Body, "RichEditor")
+                            @Html.NopTextAreaFor(model => model.Locales[item].Body)
                             @Html.ValidationMessageFor(model => model.Locales[item].Body)
                         </div>
                     </div>
@@ -111,7 +111,7 @@
                                 @Html.NopLabelFor(model => model.Body)
                             </div>
                             <div class="col-md-9">
-                                @Html.EditorFor(model => model.Body, "RichEditor")
+                                @Html.NopTextAreaFor(model => model.Body)
                                 @Html.ValidationMessageFor(model => model.Body)
                             </div>
                         </div>

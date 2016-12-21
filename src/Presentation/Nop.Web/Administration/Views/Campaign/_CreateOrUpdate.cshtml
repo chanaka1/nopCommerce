@@ -84,7 +84,7 @@
                                 //we store a value into "ViewData" and then use it in the RichEditor.cshtml file
                                 ViewData["nop.RichEditor.EnableFullPage"] = true;
                             }
-                            @Html.EditorFor(model => model.Body, "RichEditor")
+                            @Html.NopTextAreaFor(model => model.Body)
                             @Html.ValidationMessageFor(model => model.Body)
                         </div>
                     </div>
